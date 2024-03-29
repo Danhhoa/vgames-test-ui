@@ -25,8 +25,8 @@ export default function LoginPage() {
   };
 
   return (
-    <main className="flex justify-center items-center pt-10">
-      <Card>
+    <main className="flex justify-center items-start pt-10 bg-[url('/game-login-bg.gif')] bg-no-repeat bg-cover h-screen">
+      <Card className="px-6 py-4">
         <CardHeader>
           <CardTitle>Welcome to Vgames</CardTitle>
         </CardHeader>

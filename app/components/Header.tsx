@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import { useWallet } from "../hooks/useWallet";
 import { WalletIcon } from "lucide-react";
+import Link from "next/link";
 
 export const Header = () => {
   const { connectWallet, signer, provider } = useWallet();
@@ -20,7 +21,9 @@ export const Header = () => {
 
   return (
     <nav className="sticky top-0 flex justify-between px-10 items-center h-[60px] bg-secondary">
-      <div className="uppercase">vgames</div>
+      <Link href="/" className="uppercase">
+        vgames
+      </Link>
       <div className="flex items-center ">
         {accountId && <p>{accountId}</p>}
         <div
