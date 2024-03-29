@@ -2,9 +2,9 @@
 
 export const Navbar = () => {
   return (
-    <div className="flex justify-between px-10 items-center h-[60px] bg-secondary">
-      <div>TEST</div>
+    <nav className="sticky top-0 flex justify-between px-10 items-center h-[60px] bg-secondary">
+      <div className="uppercase">vgames</div>
       <div>wallet</div>
-    </div>
+    </nav>
   );
 };

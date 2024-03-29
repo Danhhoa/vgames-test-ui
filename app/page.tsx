@@ -1,10 +1,5 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
-      <Button>button</Button>
-    </main>
+    <div className="h-screen bg-[url('/game-background.gif')] bg-no-repeat"></div>
   );
 }
